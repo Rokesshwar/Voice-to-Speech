@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Voice to Text</string>
+    <string name="tamil">Tamil</string>
+    <string name="telugu">telugu</string>
+    <string name="hindi">Hindi</string>
+    <string name="malayalam">Malayalam</string>
+    <string name="marathi">Marathi</string>
+    <string name="kannada">Kannada</string>
+    <string name="english">English</string>
+    <string name="todo">TODO</string>
+    <string name="Email">Email: rokesshwar.n@zohocorp.com</string>
+    <string name="MobNum">Mobile No. :7010874153</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="facebook">Facebook</string>
+    <string name="cliq">Cliq</string>
+    <string name="snapchat">Snapchat</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+</resources>

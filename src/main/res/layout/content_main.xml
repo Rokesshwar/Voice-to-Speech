@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_main">
+
+    <ScrollView
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            <Button
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/tamil"
+                    android:background="@android:color/holo_green_dark"
+                    android:text="@string/tamil"
+                    android:textSize="14sp"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#ffffff"
+                    android:gravity="bottom"
+                    tools:ignore="RtlCompat"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"/>
+
+            <Button
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/telugu"
+                    android:background="@android:color/holo_blue_dark"
+                    android:text="@string/telugu"
+                    android:textSize="14sp"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#ffffff"
+                    android:gravity="bottom"
+                    tools:ignore="RtlCompat"
+                    android:layout_toEndOf="@id/tamil"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"/>
+            <Button
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/hindi"
+                    android:background="#fff000"
+                    android:text="@string/hindi"
+                    android:textSize="14sp"
+                    android:textColor="#ffffff"
+                    android:textAlignment="viewEnd"
+                    android:gravity="bottom"
+                    tools:ignore="RtlCompat"
+                    android:layout_below="@id/tamil"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"/>
+            <Button
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/malayalam"
+                    android:background="@android:color/holo_orange_dark"
+                    android:text="@string/malayalam"
+                    android:textSize="14sp"
+                    android:textAlignment="viewEnd"
+                    android:gravity="bottom"
+                    android:textColor="#ffffff"
+                    tools:ignore="RtlCompat"
+                    android:layout_toEndOf="@id/hindi"
+                    android:layout_below="@id/telugu"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"/>
+            <Button
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/kannada"
+                    android:background="@android:color/holo_purple"
+                    android:text="@string/kannada"
+                    android:textSize="14sp"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#ffffff"
+                    android:gravity="bottom"
+                    tools:ignore="RtlCompat"
+                    android:layout_below="@id/hindi"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"/>
+            <Button
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/marathi"
+                    android:background="#ff66"
+                    android:text="@string/marathi"
+                    android:textSize="14sp"
+                    android:textColor="#ffffff"
+                    android:textAlignment="viewEnd"
+                    android:gravity="bottom"
+                    tools:ignore="RtlCompat"
+                    android:layout_toEndOf="@id/hindi"
+                    android:layout_below="@id/malayalam"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"/>
+            <Button
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/english"
+                    android:background="#123456"
+                    android:textColor="#ffffff"
+                    android:text="@string/english"
+                    android:textSize="14sp"
+                    android:textAlignment="viewEnd"
+                    android:gravity="bottom"
+                    tools:ignore="RtlCompat"
+                    android:layout_below="@id/kannada"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

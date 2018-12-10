@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+        android:id="@+id/watsapp"
+        android:title="@string/whatsapp"
+    />
+    <item
+            android:id="@+id/fbook"
+            android:title="@string/facebook"
+    />
+    <item
+            android:id="@+id/clq"
+            android:title="@string/cliq"
+    />
+    <item
+            android:id="@+id/snap"
+            android:title="@string/snapchat"
+    />
+    <item
+            android:id="@+id/twtr"
+            android:title="@string/twitter"
+    />
+    <item
+            android:id="@+id/insram"
+            android:title="@string/instagram"
+    />
+
+</menu>
